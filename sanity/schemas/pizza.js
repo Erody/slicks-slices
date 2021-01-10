@@ -1,4 +1,5 @@
 import { MdLocalPizza as icon } from 'react-icons/md';
+import PriceInput from '../components/PriceInput';
 
 export default {
     name: 'pizza',
@@ -54,7 +55,7 @@ export default {
             type: 'number',
             description: 'Price of the pizza in cents',
             validation: (Rule) => Rule.min(400).max(50000),
-            // add custom input compononent
+            inputComponent: PriceInput,
         },
         {
             name: 'toppings',
