@@ -1,4 +1,10 @@
 var plugins = [{
+      plugin: require('C:/Users/Immo/Programming/slick-slices/gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('C:/Users/Immo/Programming/slick-slices/gatsby/node_modules/gatsby-source-sanity/gatsby-ssr'),
+      options: {"plugins":[],"projectId":"imtn27rn","dataset":"production","watchMode":true,"token":"skar2iDPi27Scp9rVJVQW2DxW8h2A1C1jU7youEYeQ375LLetlkcPZmRGgKD0SGNFsxac7eIWSmnpPvXwUlj9VqEWYnQDV2TyUY9p8kHoqFC8l3MnImAdsZdyF69ipu5KJMCOS4Rie0o3B6sb73DUziJWGwTfzW0TGgu7hE5cmpe2sQuPFvL"},
+    },{
       plugin: require('C:/Users/Immo/Programming/slick-slices/gatsby/gatsby-ssr'),
       options: {"plugins":[]},
     }]
