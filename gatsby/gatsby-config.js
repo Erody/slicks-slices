@@ -7,9 +7,11 @@ export default {
         title: `Slicks Slices`,
         siteUrl: `https://gatsby.pizza`,
         description: `The best pizza place in hamilton`,
+        twitter: '@slicksSlices',
     },
     plugins: [
         'gatsby-plugin-styled-components',
+        'gatsby-plugin-react-helmet',
         {
             resolve: 'gatsby-source-sanity',
             options: {
