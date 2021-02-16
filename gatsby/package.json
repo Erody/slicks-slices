@@ -60,6 +60,7 @@
     "url": "https://github.com/wesbos/slicks-slices"
   },
   "prettier": {
-    "tabWidth": 4
+    "tabWidth": 4,
+    "singleQuote": true
   }
 }
