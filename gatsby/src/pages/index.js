@@ -39,7 +39,7 @@ export default function HomePage() {
     return (
         <div className="center">
             <h1>The Best Pizza Downtown!</h1>
-            <p>Open 11 am to 11pm Everz Single Day</p>
+            <p>Open 11 am to 11pm Every Single Day</p>
             <HomePageGrid>
                 <CurrentlySlicing slicemasters={slicemasters} />
                 <HotSlices hotSlices={hotSlices} />
